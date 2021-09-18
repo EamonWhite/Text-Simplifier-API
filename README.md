@@ -1,4 +1,6 @@
 # text-simplifier-api
+Advanced Object Oriented Software Development Java project 
+
 The application contains one interface:
 * APIWordParser
 
