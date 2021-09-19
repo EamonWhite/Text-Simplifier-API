@@ -14,7 +14,7 @@ A. WordParser – which implements the APIWordParser interface. This class conta
 1. +mapGoogleWord(): void
 2. +mapThesaurus(): void
 3. +addAll(String[] words, String googleWord): void
-4. + getGoogleWord(String word): String
+4. +getGoogleWord(String word): String
 
 These methods are used to parse information from 2 files, a list of 1000 most commonly used Google words and a Thesaurus. The words are mapped using a TreeMap – the Google words as keys and the thesaurus words as values. The getGoogleword method returns the String value mapped to the key word passed in as a parameter.
 
